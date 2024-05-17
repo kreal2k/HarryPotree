@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'PT Sans', Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px; /* Добавляем скругления углов */
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 10px; /* Добавляем скругления углов */
+}
+
+section {
+    overflow: hidden;
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Добавляем скругления углов */
+}
+
+.button-container {
+    float: left;
+    margin-right: 20px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px; /* Добавляем скругления улов */
+}
+
+.image-link {
+    display: block;
+    border-radius: 10px; /* Добавляем скругления углов */
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.image-link img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: filter 0.3s ease-in-out;
+    border-radius: 10px; /* Добавляем скругления углов */
+}
+
+.content {
+    margin-left: 340px;
+    border-radius: 10px; /* Добавляем скругления углов */
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 0;
+    color: #333;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    padding: 8px 15px;
+    border-radius: 10px; /* Добавляем скругления углов */
+    width: 150px;
+    margin: 0 auto;
+}
+
+a:hover {
+    background-color: #0056b3;
+}
