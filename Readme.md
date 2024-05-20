@@ -1,6 +1,3 @@
-Material-icon
-github theme
-
 ### Как установить?
 
 ```bash
@@ -13,11 +10,4 @@ git clone https://github.com/kreal2k/HarryPotree.git
 node app.js
 ```
 
-2. Из директории potree-develop запускаем потри:
-```bash
-npm start
-```
-
-Если нужно запустить в фоне, то можно добавить & в конце комманд 
-
-При деплое заменить ссылки, в ptree-develop заменить examples и pointclouds для замены облаков точек
+.\PotreeConverter.exe .\pocht.las -o . --generate-page pocht
