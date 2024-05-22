@@ -44,17 +44,20 @@
     font-family: 'Nunito', Arial, sans-serif; /* Updated font to 'Nunito' */
  }
  
- .image-link img {
-    max-width: 100%;
-    height: auto;
-    width: 100%;
-    max-width: 100%;
-    height: auto;
-    display: block;
-    transition: transform 0.3s, filter 0.3s ease-in-out;
-    border-radius: 10px;
-    margin: 0 auto;
- }
+ .image-link {
+   max-width: 300px; /* Задаем максимальную ширину контейнера */
+   margin: 0 auto; /* Центрируем контейнер на странице */
+   text-align: center; /* Центрируем изображение внутри контейнера */
+}
+
+.image-link img {
+   max-width: 100%; /* Устанавливаем максимальную ширину изображения */
+   height: auto; /* Позволяем изображению масштабироваться при сохранении пропорций */
+   display: block; /* Отображаем изображение как блочный элемент */
+   transition: transform 0.3s, filter 0.3s ease-in-out;
+   border-radius: 10px;
+}
+
  
  .content {
     border-radius: 10px;
